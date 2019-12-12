@@ -24,11 +24,11 @@
         </div>
        </nav>
 
-     <h1>CSS Transform property</h1>
+     <h1>CSS Transform and Transition property</h1>
     </header>
 
-    <section id="layout">
-        <h2>Translate()</h2>
+    <section class="transform">
+        <h2>transform: translate()</h2>
         <div class="explanation">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum inventore tenetur iste a vel! Aperiam dolores accusantium, consequuntur aspernatur voluptatem officiis repudiandae, totam minus atque earum dignissimos dolorem laudantium. Sit.
 
@@ -36,20 +36,23 @@
         <div class="container">
             <div class="code">
                 <pre>
-div {
-    background-color: blue;
+#translateExample{
+    padding-left:100px;
+}
+
+#translateExample:hover{
+    transform:translate( -80px, -10px);
 }
                 </pre>
             </div>
             <div class="output">
-       
-       
+            <img id="translateExample" src="https://cdn.pixabay.com/photo/2012/04/13/00/28/santas-sleigh-31270__480.png" width="250px" alt="">
             </div> 
         </div>
     </section>
 
-    <section id="font">
-        <h2>scale()</h2>
+    <section class="transform">
+        <h2>transform: scale()</h2>
         <div class="explanation">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis atque, tenetur sequi aut distinctio iusto unde. Aliquam vero nostrum sunt dignissimos dolorem, similique suscipit impedit cum cupiditate, harum modi molestiae!
 
@@ -57,19 +60,18 @@ div {
         <div class="container">
          <div class="code">
             <pre>
-div {
-    background-color: blue;
+#scaleExample:hover{
+    transform: scale(2.5, 2.5)
 }
             </pre>
          </div>
          <div class="output">
-
-
+            <img id="scaleExample" src="https://cdn.pixabay.com/photo/2012/04/13/00/28/santas-sleigh-31270__480.png" width="100px" alt="">
          </div> 
         </div>
     </section>
-    <section id="">
-        <h2>rotate()</h2>
+    <section class="transform">
+        <h2>transform: rotate()</h2>
         <div class="explanation">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, ullam recusandae ex nemo, amet placeat rem quo provident, reprehenderit at qui quod! Animi, illum. Eos odio fuga explicabo quasi velit.
              
@@ -77,19 +79,18 @@ div {
         <div class="container">
             <div class="code">
                 <pre>
-div {
-    background-color: blue;
+#rotateExample:hover{
+    transform:rotate(45deg);
 }
                 </pre>
             </div>
             <div class="output">
-       
-       
+            <img id="rotateExample" src="https://cdn.pixabay.com/photo/2012/04/13/00/28/santas-sleigh-31270__480.png" width="250px" alt="">
             </div> 
         </div>
     </section>
-    <section id="">
-        <h2>skew()</h2>
+    <section class="transform">
+        <h2>transform: skew()</h2>
         <div class="explanation">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint ratione dolor enim fuga hic eius in reiciendis quis modi, dolore soluta natus error quisquam perferendis dicta recusandae iste doloribus deleniti?
 
@@ -105,20 +106,44 @@ div {
             </div> 
         </div>
     </section>
-    <section id="">
-        <h2>matrix()</h2>
+    <section class="transform">
+        <h2>transition</h2>
         <div class="explanation">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint ratione dolor enim fuga hic eius in reiciendis quis modi, dolore soluta natus error quisquam perferendis dicta recusandae iste doloribus deleniti?
-    
+           <p>Transitions are the grease in the wheel of CSS transforms. 
+            <br>
+            Without a transition, an element being transformed would change abruptly from one state to another. 
+            <br>
+            By applying a transition you can control the change, making it smooth and gradual.</p> 
+
+           <p>transition: A shorthand property for setting the four transition properties into a single property
+           <br>
+           transition-delay: Specifies a delay (in seconds) for the transition effect
+           <br>
+           transition-duration: Specifies how many seconds or milliseconds a transition effect takes to complete
+           <br>
+           transition-property: Specifies the name of the CSS property the transition effect is for
+           <br> 
+           transition-timing-function: Specifies the speed curve of the transition effect. linear / ease / ease-in / ease-out / ease-in-out</p>
         </div>
         <div class="container">
             <div class="code">
-               
+<pre>
+#transitionExample{
+    padding:20px;
+    transition-duration: 0.5s;
+    transition-delay: 1s ;
+    transition-timing-function: ease-in;
+ }
+
+#transitionExample:hover{
+    transform: translateY(-40px);
+    cursor: pointer;
+}
+               </pre>
                
             </div>
             <div class="output">
-               
-               
+               <img id="transitionExample"src="https://cdn.pixabay.com/photo/2019/09/28/04/58/girls-4509872_1280.png" width="300px" alt="">
             </div> 
         </div>
     </section>
