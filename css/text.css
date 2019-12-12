@@ -1,0 +1,55 @@
+/* CSS font color aplied to the paragraphs */
+.output1 p {
+    color: blue;
+}
+
+/* CSS font color aplied only to H1 elements */
+.output1 h1 {
+    color: green;
+}
+
+/* Alignement */
+.output2 h1 {
+    text-align: center;
+}
+  
+.output2 h2 {
+    text-align: left;
+}
+  
+.output2 h3 {
+    text-align: right;
+
+}
+
+.div-column {
+    text-align: justify;
+    width: 350px;
+    border: 1px solid black;
+}
+
+/* Text decoration */
+.output3 h1 {
+    text-decoration: overline;
+}
+  
+.output3 h2 {
+    text-decoration: line-through;
+}
+  
+.output3 h3 {
+    text-decoration: underline;
+}
+
+/* Text transformation */
+.output4 p.uppercase {
+    text-transform: uppercase;
+}
+  
+.output4 p.lowercase {
+    text-transform: lowercase;
+}
+  
+.output4 p.capitalize {
+    text-transform: capitalize;
+}

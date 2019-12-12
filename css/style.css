@@ -35,11 +35,19 @@ a{
     font-weight: bold;
 }
 
-.menuBar{
-    margin: 0;
+#menuBar{
+    text-align:center;
+    margin: 0 auto;
+    width:600px;
 }
 
-li{
+.menuBar{
+    margin: 0;
+    width:90%;
+    text-align:center;
+}
+
+.menuBar li{
     list-style: none;
     margin: 0 20px;
     padding:10px;
@@ -47,6 +55,7 @@ li{
 }
 
 h1{
+    margin-top:60px;
     
 }
 
@@ -99,6 +108,7 @@ h2{
 }
 
 .output{
+    text-align: initial;
     flex: 50%;
     padding:2%;
     margin:2%;
@@ -109,7 +119,7 @@ h2{
     background-color: black;
     /*Border terminal*/
     border: 1px solid #BCCAD6;
-    padding: 5px;
+    padding: 2px;
 
     border-radius: 5px;
     /* Special font to code */
