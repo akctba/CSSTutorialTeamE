@@ -3,34 +3,39 @@
 HEX: #BCCAD6 blue gray
 HEX: #8D9DB6 gray
 HEX: #667292 dark gray
-HEX: #F1E3DD white gray   */
+HEX: #F1E3DD white gray
+HEX: #283149 dark blue gray */
 
 
 body{
     margin: 0 auto;
     text-align:center;
-    color:#667292;
+    color:#283149;
     font-family: 'Abel', sans-serif; 
     background-color: #F1E3DD;
 }
 
 header{
     margin: 0 auto;
+    text-align: center;
 }
 
 nav{
-    position: sticky;
+    position: fixed;
     top:0;
     width:100%;
     background-color: #BCCAD6;
+    height: 40px;
 }
 
 a{
     text-decoration: none;
-    color: black;
+    color: #283149;
+    letter-spacing: 1px;
+    font-weight: bold;
 }
 
-ul{
+.menuBar{
     margin: 0;
 }
 
@@ -38,13 +43,15 @@ li{
     list-style: none;
     margin: 0 20px;
     padding:10px;
+    float: left;
 }
 
 h1{
+    margin-top:60px;
 }
 
 section{
-    width: 95%;
+    width: 90%;
     height: auto;
     margin: 0 auto;
 }
@@ -60,8 +67,9 @@ h2{
     padding:2%;
     margin-left:2%;
     height:auto;
-    background-color: #8D9DB6;
-    color: white;
+    /* background-color: #8D9DB6; */
+    color: #283149;
+    border: 1px dashed #8D9DB6;
     text-align: left;
 }
 
@@ -80,7 +88,7 @@ h2{
     
 
     /*Border terminal*/
-    border: 4px solid #BCCAD6;
+    border: 2px solid #BCCAD6;
     border-style: inset;
     border-radius: 5px;
 
@@ -94,6 +102,7 @@ h2{
     flex: 50%;
     padding:2%;
     margin:2%;
+    border: 1px dashed #8D9DB6;
 }
 
 
