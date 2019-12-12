@@ -242,7 +242,9 @@ div.static{
 #translateExample:hover{
     transform:translate( -80px, -10px);
 }
-
+#skewExample:hover{
+    transform: skew(20deg, 10deg);
+}
 .transform{
     line-height: 24px;
 }

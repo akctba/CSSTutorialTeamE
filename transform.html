@@ -30,16 +30,11 @@
     <section class="transform">
         <h2>transform: translate()</h2>
         <div class="explanation">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum inventore tenetur iste a vel! Aperiam dolores accusantium, consequuntur aspernatur voluptatem officiis repudiandae, totam minus atque earum dignissimos dolorem laudantium. Sit.
-
+        <p>translate(x, y) Defines a 2D translation</p>
         </div>
         <div class="container">
             <div class="code">
                 <pre>
-#translateExample{
-    padding-left:100px;
-}
-
 #translateExample:hover{
     transform:translate( -80px, -10px);
 }
@@ -54,8 +49,7 @@
     <section class="transform">
         <h2>transform: scale()</h2>
         <div class="explanation">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis atque, tenetur sequi aut distinctio iusto unde. Aliquam vero nostrum sunt dignissimos dolorem, similique suscipit impedit cum cupiditate, harum modi molestiae!
-
+            <p>scale(x, y) Defines a 2D scale transformation</p>
         </div>
         <div class="container">
          <div class="code">
@@ -73,8 +67,7 @@
     <section class="transform">
         <h2>transform: rotate()</h2>
         <div class="explanation">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, ullam recusandae ex nemo, amet placeat rem quo provident, reprehenderit at qui quod! Animi, illum. Eos odio fuga explicabo quasi velit.
-             
+            <p>rotate(angle) Defines a 2D rotation, the angle is specified in the parameter</p>
         </div>
         <div class="container">
             <div class="code">
@@ -92,17 +85,19 @@
     <section class="transform">
         <h2>transform: skew()</h2>
         <div class="explanation">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint ratione dolor enim fuga hic eius in reiciendis quis modi, dolore soluta natus error quisquam perferendis dicta recusandae iste doloribus deleniti?
-
+            <p>skew(x-angle,y-angle)	Defines a 2D skew transformation along the X- and the Y-axis</p>
         </div>
         <div class="container">
             <div class="code">
-           
+            <pre>
+#skewExample:hover{
+    transform: skew(20deg, 10deg);
+}
+            </pre>
            
             </div>
             <div class="output">
-           
-           
+                <img id="skewExample" src="https://cdn.pixabay.com/photo/2012/04/13/00/28/santas-sleigh-31270__480.png" width="250px" alt="">
             </div> 
         </div>
     </section>
