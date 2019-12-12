@@ -12,30 +12,53 @@
 <body>
     <header>
 
-     <nav>
-      <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#layout">Layout</a></li>
-          <li><a href="#font">Font</a></li>
-          <li><a href="#transform">Transform</a></li>
-      </ul>
-     </nav>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#layout">Layout</a></li>
+            <li><a href="#font">Font</a></li>
+            <li><a href="#transform">Transform</a></li>
+        </ul>
+    </nav>
 
-     <h1>CSS Text</h1>
+    <h1>CSS Text</h1>
     </header>
 
     <section id="layout">
         <h2>Text Color</h2>
         <div class="explanation">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum inventore tenetur iste a vel! Aperiam dolores accusantium, consequuntur aspernatur voluptatem officiis repudiandae, totam minus atque earum dignissimos dolorem laudantium. Sit.
-
+            <p>
+            The <span class="inlinecode">color</span> property is used to set the color of the text. The color could be specified by:
+            </p>
+            <ul>
+                <li>a color name - like <span class="inlinecode">red</span></li>
+                <li>a HEX value - like <span class="inlinecode">#ff0000</span></li>
+                <li>an RGB value - like <span class="inlinecode">rgb(255,0,0)</span></li>
+            </ul>
+            <p>The default text color for a page is defined in the body selector.</p>
         </div>
         <div class="container">
             <div class="code">
                 <pre>
-div {
-    background-color: blue;
-}
+&lt;html&gt;
+    &lt;head&gt;
+    &lt;style&gt;
+    body {
+        color: blue;
+    }
+    
+    h1 {
+        color: green;
+    }
+    &lt;/style&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+    
+    &lt;h1&gt;This is heading 1&lt;/h1&gt;
+    &lt;p&gt;This is an ordinary paragraph. Notice that this text is blue. The default text color for a page is defined in the body selector.&lt;/p&gt;
+    
+    &lt;/body&gt;
+&lt;/html&gt;
                 </pre>
             </div>
             <div class="output">
@@ -52,17 +75,17 @@ div {
 
         </div>
         <div class="container">
-         <div class="code">
-            <pre>
+            <div class= "code">
+                <pre>
 div {
     background-color: blue;
 }
-            </pre>
-         </div>
-         <div class="output">
+                </pre>
+            </div>
+            <div class="output">
 
 
-         </div> 
+            </div> 
         </div>
     </section>
     <section id="">
