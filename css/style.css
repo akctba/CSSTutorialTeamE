@@ -13,6 +13,7 @@ body{
     color:#283149;
     font-family: 'Abel', sans-serif; 
     background-color: #F1E3DD;
+    letter-spacing: 1px;
 }
 
 header{
@@ -29,7 +30,15 @@ nav{
 }
 
 footer {
-    text-align: left;
+    text-align: center;
+    background-color: #283149;
+    padding: 24px;
+    margin-top: 36px;
+}
+
+footer > p{
+    font-size: 16px;
+    color: #F1E3DD;
 }
 
 a{
@@ -57,6 +66,26 @@ a{
     padding:10px;
     float: left;
 }
+.menuBar li:hover{
+    animation-name: anim-menuLink;
+    transform:rotate(7deg);
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+}
+.menuLink:hover{
+    border-bottom: 1px solid #283149;
+
+}
+
+@keyframes anim-menuLink{
+    50%{
+        transform:rotate(-7deg);
+    }
+    100%{
+        transform: rotate(7deg);
+    }
+}
+
 
 h1{
     margin-top:60px;
@@ -132,6 +161,19 @@ h2{
     font-size: 80%;
     font-family: 'Source Code Pro', monospace;
     text-align: left;
+}
+
+/* Main page */
+
+.mainTitle{
+    font-size: 48px;
+    padding-top:100px;
+    font-family: 'Francois One', sans-serif;
+    text-shadow:#BCCAD6 1px 0 10px;
+}
+
+main{
+    
 }
 
 
