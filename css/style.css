@@ -35,8 +35,16 @@ a{
     font-weight: bold;
 }
 
+#menuBar{
+    text-align:center;
+    margin: 0 auto;
+    width:600px;
+}
+
 .menuBar{
     margin: 0;
+    width:90%;
+    text-align:center;
 }
 
 .menuBar li{
