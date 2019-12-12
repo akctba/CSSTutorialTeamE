@@ -1,0 +1,91 @@
+/* font-family: 'Abel', sans-serif;   */
+/* color     
+HEX: #BCCAD6 blue gray
+HEX: #8D9DB6 gray
+HEX: #667292 dark gray
+HEX: #F1E3DD white gray   */
+
+
+body{
+    margin: 0 auto;
+    text-align:center;
+    color:#667292;
+    font-family: 'Abel', sans-serif; 
+    background-color: #F1E3DD;
+}
+
+header{
+    margin: 0 auto;
+}
+
+nav{
+    position: sticky;
+    top:0;
+    width:100%;
+    background-color: #BCCAD6;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    margin: 0;
+}
+
+li{
+    list-style: none;
+    margin: 0 20px;
+    padding:10px;
+}
+
+h1{
+}
+
+section{
+    width: 95%;
+    height: auto;
+    margin: 0 auto;
+}
+
+h2{
+    text-align: left;
+    padding:5px;
+    margin-left:20px;
+}
+
+.explanation{
+    width:92%;
+    padding:2%;
+    margin-left:2%;
+    height:auto;
+}
+
+.container{
+    display:flex;
+    margin:0 auto;
+}
+
+.code{
+    width:40%;
+    padding:2%;
+    margin:2%;
+    background-color: black;
+    height: auto;
+    overflow: scroll;
+    color:white;
+}
+
+.output{
+    flex: 50%;
+    padding:2%;
+    margin:2%;
+}
+
+
+
+
+
+
+
