@@ -1,0 +1,9 @@
+/* CSS font color aplied to the paragraphs */
+.output p {
+    color: blue;
+}
+
+/* CSS font color aplied only to H1 elements */
+.output h1 {
+    color: green;
+}
