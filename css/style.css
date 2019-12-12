@@ -28,6 +28,10 @@ nav{
     height: 40px;
 }
 
+footer {
+    text-align: left;
+}
+
 a{
     text-decoration: none;
     color: #283149;
