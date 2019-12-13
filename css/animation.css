@@ -61,7 +61,6 @@ a{
 }
 .menuLink:hover{
     border-bottom: 1px solid #283149;
-
 }
 
 @keyframes anim-menuLink{
