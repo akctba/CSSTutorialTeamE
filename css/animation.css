@@ -54,6 +54,26 @@ a{
     float: left;
 }
 
+.menuBar li:hover{
+    animation-name: anim-menuLink;
+    transform:rotate(7deg);
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+}
+.menuLink:hover{
+    border-bottom: 1px solid #283149;
+
+}
+
+@keyframes anim-menuLink{
+    50%{
+        transform:rotate(-7deg);
+    }
+    100%{
+        transform: rotate(7deg);
+    }
+}
+
 h1{
     margin-top:60px;
     
