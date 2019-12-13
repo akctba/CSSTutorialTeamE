@@ -38,7 +38,7 @@ a{
 #menuBar{
     text-align:center;
     margin: 0 auto;
-    width:700px;
+    width:650px;
 }
 
 .menuBar{
@@ -53,7 +53,6 @@ a{
     padding:10px;
     float: left;
 }
-
 .menuBar li:hover{
     animation-name: anim-menuLink;
     transform:rotate(7deg);
