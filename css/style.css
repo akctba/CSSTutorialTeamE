@@ -215,15 +215,17 @@ div.static{
 
 /* transform part */
 #transitionExample{
-    padding:20px;
+    padding-left:100px;
+    padding-top:20px;
     transition-duration: 0.5s;
     transition-delay: 1s ;
     transition-timing-function: ease-in;
 }
 #transitionExample:hover{
-    transform: translateY(-40px);
+    transform: translate(-70px, -30px);
     cursor: pointer;
 }
+
 #scaleExample{
     padding: 30px 0 0 50px ;
 }
