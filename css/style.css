@@ -51,7 +51,7 @@ a{
 #menuBar{
     text-align:center;
     margin: 0 auto;
-    width:600px;
+    width:650px;
 }
 
 .menuBar{
@@ -173,7 +173,7 @@ h2{
 }
 
 main{
-    
+    height: 588px;
 }
 
 
